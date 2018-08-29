@@ -3,10 +3,10 @@ If you find use in this then thats nice too
 
 Directory:
 * git
-    ...* notes
+    * notes
 * nodejs
-    ...* general install of node and npm
-    ...* enable npm global  (without sudo)
-    ...* nvm install
+    * general install of node and npm
+    * enable npm global  (without sudo)
+    * nvm install
 * notes
-    ...* bits of useful code
+    * bits of useful code
