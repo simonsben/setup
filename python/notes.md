@@ -13,7 +13,7 @@ See example below for implementation example.
 ``` python
     from multiprocessing import Pool
     
-    input_data - [...]
+    input_data = [...]
     process_pool = Pool(num_processes)
 
     output_data = process_pool.map(multi_function, input_data)
@@ -22,3 +22,6 @@ See example below for implementation example.
     process_pool.join()     # Joins processes (blocking)
 ```
 
+Once the pool is no longer going to be used it is good practice to call `Pool.close()` then `Pool.join()`.
+The `Pool.close()` tells the processes/threads to kill themselves after all jobs have been completed (**NOTE** this call is non-blocking).
+The `Pool.join()` effectively gets the main process to wait until all jobs complete, returning the program to being synchronous (basically). 
