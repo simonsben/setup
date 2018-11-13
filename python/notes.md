@@ -1,5 +1,13 @@
 # Notes
 
+# General
+
+## Exporting packages
+
+The environment (specifically the packages you use) can be exported using the command `pip freeze > requirements.txt`, which prints a list of packages to a file called `requirements.txt`.
+To install packages using one of these lists simply run `pip install -r requirements.txt` (NOTE: in this case the file would have to be in the local directory).
+In general it would be better if this was run while in a python virtual environment, preventing the command from installing packages to the global library.
+
 # Overriding functions
 
 There are standard functions that you can override for commonly used actions (such as `__str__`). 
