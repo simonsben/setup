@@ -1,8 +1,11 @@
-# Personal setup files for things that bug me
-If you find use in this then thats nice too.
+# Setup files
+
+Personal backup for setup files and notes for things that bug me and I forget. 
+If you find use in this then thats nice too.  
 **NOTE** snipets here and there are shamelessly copied from docs and/or Stack Overflow.
 
-Directory:
+## Directory:
+
 * bash
   * bits of useful code for writing scripts
 * git
