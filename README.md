@@ -1,8 +1,8 @@
 # Setup files
 
-Personal backup for setup files and notes for things that bug me and I forget. 
+Personal backup for setup files and notes for things that bug me and I forget.
 If you find use in this then thats nice too.  
-**NOTE** snipets here and there are shamelessly copied from docs and/or Stack Overflow.
+**NOTE** snipets here and there are shamelessly copied from docs and/or Stack Overflow (should be mostly cited).
 
 ## Directory:
 

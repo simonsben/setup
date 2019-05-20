@@ -10,11 +10,11 @@ Some useful commands are:
 * `plt.imshow(image_array)` plots an image from an array (usually numpy)
   * Can add `cmap='gray'` to plot in greyscale
 * `plt.show()` is effectively a blocking command that keeps the figure open
-* `plt.save(file_name)` saves the figure (without openning)
+* `plt.save(file_name)` saves the figure (without opening)
 
 ### Install
 
-Pyplot is installed as part of matplotlib and can be imported as `import matplotlib.pyplot as plt` for most applications. 
+Pyplot is installed as part of matplotlib and can be imported as `import matplotlib.pyplot as plt` for most applications.
 
 ## Numpy
 

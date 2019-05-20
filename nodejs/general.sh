@@ -10,3 +10,4 @@ sudo apt install nodejs
 
 echo "Installing npm"
 sudo apt install npm
+
