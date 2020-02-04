@@ -26,6 +26,7 @@ List comprehensions are an efficient way to loop through lists or select portion
 A simple example would be `ex_narray[i+1 for i in range(10)]` to create a list of integers from 1 to 10.
 It can also call functions, for example `ex_array = [math.sqrt(num) for num in ex_num_list]`.
 Comprehensions are very efficient since python can reduce the amount of support/overhead vs. a for loop.
+However, they do not pre-allocate the entire array, meaning that for large lists you're better off using a numpy array (or similar).
 
 ## Multiprocessing
 
@@ -51,7 +52,7 @@ process_pool.join()     # Joins processes (blocking)
 
 Once the pool is no longer going to be used it is good practice to call `Pool.close()` then `Pool.join()`.
 The `Pool.close()` tells the processes/threads to kill themselves after all jobs have been completed (**NOTE** this call is non-blocking).
-The `Pool.join()` effectively gets the main process to wait until all jobs complete, returning the program to being synchronous (basically). 
+The `Pool.join()` effectively gets the main process to wait until all jobs complete, returning the program to being synchronous (basically).
 
 ### Locks
 
